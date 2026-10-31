@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run build)",
+      "Bash(* --version)",
+      "Bash(* --help *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Read(//tmp/**)"
+    ],
+    "deny": [
+      "Bash(rm *)",
+      "Bash(git rm *)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
+}
